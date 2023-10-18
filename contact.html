@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Created By Miadi -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- link css bootstrap online -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link bootstrap icon online -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="style/style-contact.css">
+</head>
+<body>
+
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <img src="img/th.jfif" alt="logo" width="40" height="30" class="rounded me-2">
+        <a class="navbar-brand text-light" href="#"><span class="text-danger">Hari</span>an.com</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-danger" href="contact.html">Contact Us</a>
+            </li>
+          </ul>          
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Beri kami beberapa masukan, agar kedepannya kami bisa lebih baik lagi dalam pembuatan sebuah website...</p>
+                    <div class="icons">
+                        <div class="row mt-2">
+                            
+                            <div class="info">
+                                <i class="bi bi-person-circle"></i>
+                                <div class="head">Name</div>
+                                <div class="sub-title">Miadi</div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            
+                            <div class="info">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <div class="head">Address</div>
+                                <div class="sub-title">Sekuduk, Sejangkung, Sambas, Kalbar, Indonesia</div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            
+                            <div class="info">
+                                <i class="bi bi-envelope-fill"></i>
+                                <div class="head">Email</div>
+                                <div class="sub-title">miadi0618@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://formspree.io/f/xgejzkay" method="post">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required name="name" id="name">
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="your email" required name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required name="Subject" id="Subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required name="message" id="message"></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- awal footer -->
+      <footer class="bg-dark text-white rounded py-3 border border-3 border-danger" style="width: auto;">
+          <span class="d-flex justify-content-center">Created By<a href="" class="text-danger ms-1 me-1" style="text-decoration: none;">MIADI</a> | <span class="mx-2"><i class="bi bi-c-circle"></i></span> 2023 All rights reserved.</span>
+      </footer>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
