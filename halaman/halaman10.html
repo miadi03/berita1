@@ -10,8 +10,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- link style css -->
     <link rel="stylesheet" href="../style/style.css">
+
+    <!-- link style css popup -->
+    <link rel="stylesheet" href="style_popup.css">
+
   </head>
   <body>
+
+    <!-- popup -->
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+        <div class="close" id="closeBtn"><i class="bi bi-x-square-fill fs-2 text-warning"></i></div>
+        <h2>Iklan</h2>
+        <img src="../img/iklan2.jpg" class="rounded" style="width: auto; height: 200px;" alt="ini gambar saya">
+        <p>Belanja Semua di shoopee.</p>
+        <a href="https://shopee.co.id/?gclid=CjwKCAjw-eKpBhAbEiwAqFL0mqeNkmkY-9iLubDnTo3LPorVJrG2D2QyBSGyLT4GmwXYfoJ8Uut5LRoCyK0QAvD_BwE" type="button" class="btn btn-info text-white">Belanja Sekarang</a>
+    </div>
+
+
     <!-- awal navbar -->
     <nav class="navbar navbar-expand-lg bg-dark fixed-top">
       <div class="container-fluid">
@@ -288,6 +304,8 @@
     <!-- akhir footer -->
 
 
+    <!-- link js popup -->
+    <script src="script_popup.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
